@@ -1,0 +1,121 @@
+{
+	"filters": {
+		"category": {
+			"id": "10"
+		},
+		"owner": {},
+		"keywords": {},
+		"location": {
+			"city_zipcodes": [
+				{
+					"city": "Lyon",
+					"zipcode": "69004",
+					"region_id": "22",
+					"department_id": "69",
+					"label": "Lyon (69004)",
+					"locationType": "city"
+				},
+				{
+					"city": "Lyon",
+					"zipcode": "69005",
+					"region_id": "22",
+					"department_id": "69",
+					"label": "Lyon (69005)",
+					"locationType": "city"
+				},
+				{
+					"city": "Lyon",
+					"zipcode": "69003",
+					"region_id": "22",
+					"department_id": "69",
+					"label": "Lyon (69003)",
+					"locationType": "city"
+				},
+				{
+					"city": "Lyon",
+					"zipcode": "69008",
+					"region_id": "22",
+					"department_id": "69",
+					"label": "Lyon (69008)",
+					"locationType": "city"
+				},
+				{
+					"city": "Lyon",
+					"zipcode": "69006",
+					"region_id": "22",
+					"department_id": "69",
+					"label": "Lyon (69006)",
+					"locationType": "city"
+				}
+			],
+			"locations": [
+				{
+					"city": "Lyon",
+					"zipcode": "69004",
+					"region_id": "22",
+					"department_id": "69",
+					"label": "Lyon (69004)",
+					"locationType": "city"
+				},
+				{
+					"city": "Lyon",
+					"zipcode": "69005",
+					"region_id": "22",
+					"department_id": "69",
+					"label": "Lyon (69005)",
+					"locationType": "city"
+				},
+				{
+					"city": "Lyon",
+					"zipcode": "69003",
+					"region_id": "22",
+					"department_id": "69",
+					"label": "Lyon (69003)",
+					"locationType": "city"
+				},
+				{
+					"city": "Lyon",
+					"zipcode": "69008",
+					"region_id": "22",
+					"department_id": "69",
+					"label": "Lyon (69008)",
+					"locationType": "city"
+				},
+				{
+					"city": "Lyon",
+					"zipcode": "69006",
+					"region_id": "22",
+					"department_id": "69",
+					"label": "Lyon (69006)",
+					"locationType": "city"
+				}
+			]
+		},
+		"ranges": {
+			"price": {
+				"max": 900,
+				"min": 600
+			},
+			"rooms": {
+				"max": 2,
+				"min": 2
+			},
+			"square": {
+				"max": 60,
+				"min": 40
+			}
+		},
+		"enums": {
+			"ad_type": [
+				"offer"
+			],
+			"furnished": [
+				"2"
+			]
+		}
+	},
+	"counters": {},
+	"limit": 35,
+	"sort_by": "time",
+	"sort_order": "desc"
+}
