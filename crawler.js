@@ -16,7 +16,6 @@ try {
 
 axios.post('https://api.leboncoin.fr/finder/search', query).then(({data}) => {
 	const hash = md5sum.update(JSON.stringify(data)).digest('hex')
-	console.log(hash)
 
 	if (hash === previousHash) {
 		fs.writeFile(hashFilepath, hash, () => {})
@@ -25,6 +24,8 @@ axios.post('https://api.leboncoin.fr/finder/search', query).then(({data}) => {
 	  		title: 'Le Bon Coin',
 	  		message: 'De nouvelles annonces sont disponibles !',
 	  		open: 'https://www.leboncoin.fr/aw/mes-recherches/'
-	  	});
+	  	})
 	}
 })
+
+
